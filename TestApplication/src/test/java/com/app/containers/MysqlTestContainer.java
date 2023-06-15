@@ -4,7 +4,7 @@ import org.testcontainers.containers.MySQLContainer;
 
 public class MysqlTestContainer extends MySQLContainer<MysqlTestContainer>{
 
-	public static final String IMAGE_VERSION = "mysql:11.1";
+	public static final String IMAGE_VERSION = "mysql:latest";
 	
 	public static final String DATABASE_NAME = "test";
 	
